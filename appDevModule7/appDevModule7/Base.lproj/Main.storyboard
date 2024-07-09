@@ -36,6 +36,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Kdq-5Z-EI6" kind="show" id="hMf-F6-SYs"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -57,6 +60,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+        <!--SecondViewController-->
+        <scene sceneID="hsH-MS-bje">
+            <objects>
+                <viewController title="SecondViewController" id="Kdq-5Z-EI6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2bS-je-scE">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="rAm-FL-WFR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sQF-hd-A15"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uEb-rt-aCf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-218" y="-704"/>
         </scene>
     </scenes>
     <resources>
